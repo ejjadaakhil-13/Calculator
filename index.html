@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./asserts/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" placeholder=".">
+            <div id="buttonsdiv">
+                <button class="button" onclick="clearing()">Clear</button>
+                <button class="button" onclick="removeval()"><img src="./asserts/4823165.png" width="25px" height="20px" alt="img"></button>
+                <button class="button" onclick="addval('/')">/</button>
+                <button class="button operator" onclick="addval('*')">*</button>
+                <button class="button" onclick="addval('7')">7</button>
+                <button class="button" onclick="addval('8')">8</button>
+                <button class="button" onclick="addval('9')">9</button>
+                <button class="button operator" onclick="addval('-')">-</button>
+                <button class="button" onclick="addval('4')">4</button>
+                <button class="button" onclick="addval('5')">5</button>   
+                <button class="button" onclick="addval('6')">6</button>
+                <button class="button operator" onclick="addval('+')">+</button>
+                <button class="button" onclick="addval('1')">1</button>
+                <button class="button" onclick="addval('2')">2</button>
+                <button class="button" onclick="addval('3')">3</button>
+                <button class="button operator" onclick="result()">=</button>
+                <button class="button zero" onclick="addval('0')">0</button>
+                <button class="button" onclick="addval('.')">.</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
